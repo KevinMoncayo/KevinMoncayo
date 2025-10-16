@@ -7,11 +7,12 @@ namespace FormulariosContenedores
             InitializeComponent();
         }
 
-        private void btnMostrar_Click(object sender, EventArgs e)
+        private void btnGuardar_Click(object sender, EventArgs e)
         {
-            lblMonitor.Text = txtNombre.Text + " " + txtApellido.Text;
+            lblMonitor.Text = "El cliente " + txtNombre.Text + " " + txtApellido.Text + " con dirección " + txtDireccion.Text + " ha siddo creado exitosamente.";
             txtNombre.Text = "";
             txtApellido.Text = "";
+            txtDireccion.Text = "";
         }
     }
 }

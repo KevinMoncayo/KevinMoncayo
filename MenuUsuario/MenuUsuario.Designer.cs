@@ -57,7 +57,7 @@
             ingresarUsuarioToolStripMenuItem.Text = "Ingresar usuario";
             ingresarUsuarioToolStripMenuItem.Click += ingresarUsuarioToolStripMenuItem_Click;
             // 
-            // Form1
+            // MenuUsuario
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -65,8 +65,8 @@
             Controls.Add(menuStrip1);
             IsMdiContainer = true;
             MainMenuStrip = menuStrip1;
-            Name = "Form1";
-            Text = "Form1";
+            Name = "MenuUsuario";
+            Text = "Korn - Registro clientes";
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
             ResumeLayout(false);
